@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt - pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="SECTOR11.ico" type="image/x-icon">
+    <title>Imagens dinamicas</title>
+</head>
+<body background="FOTOS/GRANDE.png">
+    
+    <h1>Imagens Dinamicas</h1>
+    <hr>
+    
+    <h2>NOTAS</h2>
+    <ol>
+        <li> Temos que usar a tag img;</li>
+        <li>colocar a foto maior</li>
+        <li>depos colocar por cima das tags a tag (source = " max - widht quantos px")</li>
+        <ol>Sempre seguindo a ordem</ol>
+        <b> OBS:Neste caso eu coloquei como imagem fundo a omagem Grande, mas podemos notar adiferenca assim que nos mudrarmos o tamanho da tela.
+        </b>
+
+   </ol>
+   <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="EBM_Ministerios_de_Apoio_ou_dons_de_Socorros_4_4.mp3" type="audio/mpeg">
+    </audio>
+    <h2>Como fazer para adicionar audio?</h2>    
+   <ul> 
+    <li>Podemos usar a tag (audio) depos de "" escrever controls autoplay;</li>
+    <li> Tambem podemos entre a tag (audio) podemos adicionar a tag source  src;</li>
+    Podemos tambem no abrir da tag (audio colocar preload = metadata autoplay controles) 
+   </ul>
+    
+
+   
+
+    <picture>
+        <source media="(max-width:750px )" srcset="fotos/pequeno.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="fotos/medio.png" type="image/png">
+        <img src="FOTOS/GRANDE.png" alt="imagem flexivel">
+
+    </picture>
+   
+   
+</body>
+</html>
